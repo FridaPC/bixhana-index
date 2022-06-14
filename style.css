@@ -1,0 +1,131 @@
+*{
+    padding:30px;
+    margin: 0 auto;
+    text-align:center;
+    color:#64042f;
+
+}
+
+body {
+    background-color:#f5e4df;
+    background-image: url(fondobix2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    background-color:#decad3;
+    display:block;
+    text-align:center;
+    border-radius: 7px;
+    z-index:-1;
+    
+    
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+ 
+
+
+  }
+  
+  .btn {
+    border-color: #bba8b1;
+    border-right: #b4a6ac;
+    border-radius: 20px;
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    background-color: #decad3;
+    
+  }
+
+  .btn:hover {
+    box-shadow: 0 5px 8px 0 rgb(98, 72, 105),0 17px 50px 0 rgba(23, 2, 48, 0.19);
+    background-color: #64042f;
+    border-color: #64042f;
+    color:#decad3;
+}
+  
+  .saludo{
+    color:#000a2e;
+    font-family: 'Pacifico', cursive;
+    font-size:50px;
+    padding-top:10px;
+  }
+
+  .caja{
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nombre{
+    padding-top:10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  input{
+    padding:10px;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;  
+ 
+    }
+
+    .btn2 {
+        color:white;
+        border-color: #bba8b1;
+        border-right: #b4a6ac;
+        border-radius: 5px;
+        padding:10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size:15px;
+        text-transform:uppercase;
+        background-color: #64042f;
+    
+    }
+
+    .btn2:hover {
+        box-shadow: 0 5px 8px 0 rgb(98, 72, 105),0 17px 50px 0 rgba(23, 2, 48, 0.19);
+        background-color: #ffffff;
+        color:#64042f;
+    }
+     
+  @media (max-width: 800px) {
+      body{
+      background-image: url(fondobixresponsive.png);
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        top: 20%;
+      }
+
+      input{
+        padding:10px;
+        font-size:20px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        align: center;
+        }
+      
+     
+    }
