@@ -10,22 +10,17 @@ function cambio ()
     {
       
       contador=1;
-      document.getElementById("btn").innerHTML= "traducir a  inglés";
+      document.getElementById("btn").innerHTML= "traducir a zapoteco";
       document.getElementById("saludo").innerHTML= "Hola!";
-      document.getElementById("caja").innerHTML= "Somos BIXHANA, productores de este huevo y tenemos un mensaje para ti.";
-      document.getElementById("nombre").innerHTML= "Inserta tu primer nombre:";
-      document.getElementById("btn2").innerHTML= "Descubre el mensaje";
-      
+      document.getElementById("caja").innerHTML= "somos BIXHANA trabajando, productores de huevo libre de jaula y tenemos un mensaje para ti";      
     }
   else {
     
     contador=0;
     
-    document.getElementById("btn").innerHTML= "translate to spanish";
-    document.getElementById("saludo").innerHTML= "Hi!";
-    document.getElementById("caja").innerHTML= "This is BIXHANA, producers of these eggs and we have a message for you.";
-    document.getElementById("nombre").innerHTML= "Insert your first name:";
-    document.getElementById("btn2").innerHTML= "Discover the message";
+    document.getElementById("btn").innerHTML= "traducir a español";
+    document.getElementById("saludo").innerHTML= "Padiuxhi!";
+    document.getElementById("caja").innerHTML= "Nacadu BIXHANA cayunidu\' dxiña, hrutoodo dxita bere cadi dagu yoo ne napadu shisha gabidu lii";
       }
 }
 
