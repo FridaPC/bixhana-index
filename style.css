@@ -6,6 +6,8 @@
 
 }
 
+
+
 body {
     background-color:#f5e4df;
     background-image: url(fondobix2.png);
@@ -103,7 +105,7 @@ div {
         background-color: #ffffff;
         color:#64042f;
     }
-     
+   
   @media (max-width: 800px) {
       body{
       background-image: url(fondobixresponsive.png);
@@ -130,19 +132,30 @@ div {
      
     }
 
-@media (max-width: 400px) {
+    @media screen and (min-width: 300px) {
       body{
       background-image: url(fondobixresponsive.png);
 
       }
-      input{
-        position:relative;
-        padding:5px;
-        font-size:20px;
-        font-family: 'Montserrat', sans-serif;
-        display: flex;
-        align: center;
-        right:16px;
+      input {
+        width: 100px;
+        height: 13px;
+        padding: 20;
+        margin:20;
+        vertical-align: bottom;
+        position: relative;
+        top: -1px;
+        *overflow: hidden;
+      }
+        .logo {
+          width: 120px;
+          height: 120px;
+          position:absolute;
+          justify-content: center;
+          align-items: center;
+          left: 50%;
+          top: 20%;
         }
 
       }
+    
