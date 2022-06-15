@@ -12,7 +12,7 @@ function cambio ()
       contador=1;
       document.getElementById("btn").innerHTML= "traducir a  inglés";
       document.getElementById("saludo").innerHTML= "Hola!";
-      document.getElementById("caja").innerHTML= "Soy la productora de este huevo y tengo un mensaje para ti.";
+      document.getElementById("caja").innerHTML= "Somos BIXHANA, productores de este huevo y tenemos un mensaje para ti.";
       document.getElementById("nombre").innerHTML= "Inserta tu primer nombre:";
       document.getElementById("btn2").innerHTML= "Descubre el mensaje";
       
