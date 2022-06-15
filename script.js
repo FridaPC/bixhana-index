@@ -23,7 +23,7 @@ function cambio ()
     
     document.getElementById("btn").innerHTML= "translate to spanish";
     document.getElementById("saludo").innerHTML= "Hi!";
-    document.getElementById("caja").innerHTML= "I'm the producer of these eggs and I have a message for you.";
+    document.getElementById("caja").innerHTML= "This is BIXHANA, producers of these eggs and we have a message for you.";
     document.getElementById("nombre").innerHTML= "Insert your first name:";
     document.getElementById("btn2").innerHTML= "Discover the message";
       }
