@@ -81,7 +81,7 @@ div {
     font-family: 'Montserrat', sans-serif;
   }
   input{
-    padding:10px;
+    padding:8px;
     font-size:20px;
     font-family: 'Montserrat', sans-serif;  
  
@@ -91,7 +91,7 @@ div {
         color:white;
         border-color: #bba8b1;
         border-right: #b4a6ac;
-        border-radius: 5px;
+        border-radius: 10px;
         padding:10px;
         font-family: 'Montserrat', sans-serif;
         font-size:15px;
@@ -103,6 +103,7 @@ div {
 
 
     a{
+      text-align: center;
       color:white;
       text-decoration: none;
     }
@@ -183,7 +184,9 @@ div {
      
     }
 
-    @media screen and (min-width: 300px) {
+    @media only screen and (min-width:320px) and (max-width:480px){
+    
+    
       body{
       background-image: url(fondobixresponsive.png);
 
@@ -208,7 +211,15 @@ div {
           top: 20%;
         }
 
-      }
+        input{
+          padding:10px;
+          font-size:20px;
+          font-family: 'Montserrat', sans-serif; 
+          display:block;
+          left:20%;
+        }
+
+    }
     
     
     
