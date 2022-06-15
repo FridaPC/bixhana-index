@@ -1,6 +1,6 @@
 *{
     padding:30px;
-    margin: 0 auto;
+    margin: 0;
     text-align:center;
     color:#64042f;
 
@@ -100,12 +100,62 @@ div {
     
     }
 
+
+
+    a{
+      color:white;
+      text-decoration: none;
+    }
+    a:visited{
+      color:#d8a2ba;
+    }
+
+    
     .btn2:hover {
         box-shadow: 0 5px 8px 0 rgb(98, 72, 105),0 17px 50px 0 rgba(23, 2, 48, 0.19);
         background-color: #ffffff;
         color:#64042f;
+    
     }
+
+  
+
+    .ia{
+      width: 280px;
+      height: 280px;
+      top:40%;
+      position:static;
+       }
+
+    .saludo-page{
+      display:block;
+      font-size:40px;
+      font-family: 'Pacifico',cursive;
+      text-align: left;
+
+      
+    }
+
+    .logo-page {
+      width: 100px;
+      height: 100px;
+      vertical-align: middle;
+     }
+
+     .caja-page{
+       padding-top: 50px;
+       font-size: 10px;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+
+    
    
+
+
+
+
   @media (max-width: 800px) {
       body{
       background-image: url(fondobixresponsive.png);
@@ -121,12 +171,13 @@ div {
         top: 20%;
       }
 
+     
+
       input{
         padding:10px;
         font-size:20px;
         font-family: 'Montserrat', sans-serif;
         display: flex;
-        align: center;
         }
       
      
@@ -158,5 +209,6 @@ div {
         }
 
       }
+    
     
     
