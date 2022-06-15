@@ -12,8 +12,7 @@ function cambio ()
       contador=1;
       document.getElementById("btn").innerHTML= "traducir a zapoteco";
       document.getElementById("saludo").innerHTML= "Hola!";
-      document.getElementById("caja").innerHTML= "Somos BIXHANA, productores de este huevo y tenemos un mensaje para ti.";
-      
+      document.getElementById("caja").innerHTML= "somos BIXHANA trabajando, productores de huevo libre de jaula y tenemos un mensaje para ti";      
     }
   else {
     
@@ -28,4 +27,3 @@ function cambio ()
 
 
 btn.addEventListener('click',cambio,false);
-
