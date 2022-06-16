@@ -181,8 +181,9 @@ div {
         background-image: url(fondobixresponsive.png);
         background-size: auto ;
         orientation: portrait;
-        margin-top:-60px;
-        margin-bottom: 60px;
+        margin-top:-80px;
+        margin-bottom: 80px;
+        
   
         }
         .ia{
@@ -194,7 +195,7 @@ div {
         .saludo{
             color:#000a2e;
             font-family: 'Pacifico', cursive;
-            font-size:20px;
+            font-size:10px;
             padding-top:10px;
           }
         
