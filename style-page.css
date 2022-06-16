@@ -55,12 +55,6 @@ div {
     color:#decad3;
 }
   
-  .saludo{
-    color:#000a2e;
-    font-family: 'Pacifico', cursive;
-    font-size:50px;
-    padding-top:10px;
-  }
 
   .caja{
     display: block;
@@ -93,6 +87,7 @@ div {
       font-size:40px;
       font-family: 'Pacifico',cursive;
       text-align: left;
+      color:#64042f;
 
       
     }
@@ -181,7 +176,7 @@ div {
         background-image: url(fondobixresponsive.png);
         background-size: auto ;
         orientation: portrait;
-        margin-top:-80px;
+        margin-top:-110px;
         margin-bottom: 80px;
         
   
@@ -192,10 +187,10 @@ div {
             top:38%;
             position:static;
              }
-        .saludo{
-            color:#000a2e;
+        .saludo-page{
+            color:#64042f;
             font-family: 'Pacifico', cursive;
-            font-size:10px;
+            font-size:25px;
             padding-top:10px;
           }
         
@@ -226,5 +221,6 @@ div {
         }
 
     }
+    
     
     
