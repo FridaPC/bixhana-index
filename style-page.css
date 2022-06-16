@@ -9,8 +9,10 @@
 
 
 body {
-    padding-top:-30px;
-    padding:60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -60px;
+    margin-bottom: 60px;
     background-color:#f5e4df;
     background-image: url(fondobix2.png);
     background-size: cover;
